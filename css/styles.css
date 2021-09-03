@@ -58,6 +58,9 @@ header {
     width: 50%;
     font-family: 'Urbanist', sans-serif;
     color: #d9dcdd;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 .div_banner_text h1 {
@@ -95,7 +98,7 @@ header {
     margin-top: 5%;
     color: #d9dcdd;
     font-size: 18px;
-    width: 49%;
+    width: 56%;
     display: flex;
     justify-content: space-between;
     align-items: center;
