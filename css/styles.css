@@ -61,14 +61,14 @@ header {
 }
 
 .div_banner_text h1 {
-    font-size: 70px;
+    font-size: 62px;
 }
 
 .bannerparagraph {
     color: #d9dcdd;
-    margin: 1% 0;
-    width: 81%;
-    font-size: 20px;
+    margin: 2% 0;
+    width: 67%;
+    font-size: 18px;
 }
 
 .bannerparagraph p:nth-child(2) {
@@ -80,7 +80,7 @@ header {
     font-size: 16px;
     color: #d9dcdd;
     background-color: #3b91d0;
-    padding: 1.8% 7%;
+    padding: 2% 8%;
     border-radius: 50px;
     border: #2773aa;
     border-top: rgb(85, 173, 224) 2px solid;
@@ -92,10 +92,16 @@ header {
 }
 
 .bannerlinks {
-    margin-top: 4%;
+    margin-top: 5%;
     color: #d9dcdd;
     font-size: 18px;
-    width: 45%;
+    width: 49%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.bannerlinks a {
+    text-decoration: #d9dcdd;
+    border-bottom: #d9dcdd 1px solid;
 }
