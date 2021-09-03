@@ -18,11 +18,11 @@ header {
     padding: 1.5% 7%;
 }
 
-.div_barra_nav {
+nav {
     width: 30%;
 }
 
-.div_barra_nav ul {
+nav ul {
     list-style: none;
     width: 100%;
     display: flex;
@@ -33,7 +33,7 @@ header {
     color: #d9dcdd;
 }
 
-.div_barra_nav ul li:first-child {
+nav ul li:first-child {
     padding: 2px 18px;
     border-bottom: rgb(113, 113, 113) 1px solid;
     box-shadow: inset 0px 2px 4px rgb(63, 63, 63);
@@ -51,7 +51,7 @@ header {
 .div_banner_img {
     width: 50%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .div_banner_text {
@@ -61,6 +61,7 @@ header {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
+    justify-content: center;
 }
 
 .div_banner_text h1 {
@@ -108,3 +109,9 @@ header {
     text-decoration: #d9dcdd;
     border-bottom: #d9dcdd 1px solid;
 }
+
+
+/*----------------*/
+
+
+/* Inicio Barra de navegación/Servicios */
