@@ -22,7 +22,7 @@ nav {
     width: 30%;
 }
 
-nav ul {
+.barra_nav {
     list-style: none;
     width: 100%;
     display: flex;
@@ -33,7 +33,12 @@ nav ul {
     color: #d9dcdd;
 }
 
-nav ul li:first-child {
+li{
+    display: flex;
+    align-items: center;
+}
+
+nav .barra_nav li:first-child {
     padding: 2px 18px;
     border-bottom: rgb(113, 113, 113) 1px solid;
     box-shadow: inset 0px 2px 4px rgb(63, 63, 63);
@@ -115,3 +120,65 @@ nav ul li:first-child {
 
 
 /* Inicio Barra de navegación/Servicios */
+
+
+.div_navegacion{
+    background-color: #ebebeb;
+    width: 86%;
+    padding: 0.5% 7%;
+}
+
+
+/* Fin Barra de navegación/Servicios */
+
+/*----------------*/
+
+/* Inicio Sección de información */
+
+.cont_info_grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.info_grid{
+    margin: 6%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 32% 6% 22% 40%;
+}
+
+.info_grid div{
+    text-align: center;
+}
+
+.info_grid .img_info{
+    margin-bottom: 6%;
+}
+
+.info_grid h2{
+    color: #8395a2;
+    margin-bottom: 2%;
+}
+
+.info_grid p{
+    color: grey;
+}
+
+.div_btn_info a{
+    padding: 3% 6%;
+    background-color: #3b91d0;
+    color: #ebebeb;
+    border-radius: 4px;
+    border:rgb(85, 173, 224);
+    border-top: rgb(85, 173, 224) 3px solid;
+    text-shadow: 0px -1px 2px rgb(63, 63, 63);
+    box-shadow: 0px 1px 2px rgb(63, 63, 63);
+}
+
+.div_btn_info{
+    margin-top:11%;
+}
+
