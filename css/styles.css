@@ -149,7 +149,7 @@ nav .barra_nav li:first-child {
     width: 80%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 32% 6% 22% 40%;
+    grid-template-rows: 37% 6% 37% 30%;
 }
 
 .info_grid div{
@@ -158,15 +158,18 @@ nav .barra_nav li:first-child {
 
 .info_grid .img_info{
     margin-bottom: 6%;
+    grid-row: 1/2;
 }
 
 .info_grid h2{
     color: #8395a2;
-    margin-bottom: 2%;
+    margin: 2% 0;
+    grid-row: 2/3;
 }
 
 .info_grid p{
     color: grey;
+    grid-row: 3/4;
 }
 
 .div_btn_info a{
@@ -182,6 +185,7 @@ nav .barra_nav li:first-child {
 
 .div_btn_info{
     margin-top:11%;
+    grid-row: 4/5;
 }
 
 
@@ -230,15 +234,15 @@ nav .barra_nav li:first-child {
 
 .pre_footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .cont_fromourblog{
     width: 40%;
     display: grid;
-    grid-template-columns: 35% 65%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 35% 57%;
+    grid-template-rows: 10% 40% 40% 10%;
 }
 
 .pre_footer h2{
@@ -314,7 +318,7 @@ footer p{
 }
 
 .infooter{
-    width: 90%;
+    width: 80%;
     margin-top: 2%;
     border: #8e8e8e;
     border-top: #8e8e8e 1px solid;
