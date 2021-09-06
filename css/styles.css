@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+h1,h2,h3,p,a,ul{
+    font-family:'Urbanist', sans-serif;
+}
+
 body {
     width: 100%;
 }
@@ -27,7 +31,6 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-family: 'Urbanist', sans-serif;
     /*font-family: 'Work Sans', sans-serif;*/
     font-size: 15px;
     color: #d9dcdd;
@@ -61,7 +64,6 @@ nav .barra_nav li:first-child {
 
 .div_banner_text {
     width: 50%;
-    font-family: 'Urbanist', sans-serif;
     color: #d9dcdd;
     display: flex;
     align-items: center;
@@ -135,18 +137,18 @@ nav .barra_nav li:first-child {
 
 /* Inicio Sección de información */
 
+
 .cont_info_grid{
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Urbanist', sans-serif;
 }
 
 .info_grid{
     margin: 6%;
     width: 80%;
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 32% 6% 22% 40%;
 }
 
@@ -181,4 +183,46 @@ nav .barra_nav li:first-child {
 .div_btn_info{
     margin-top:11%;
 }
+
+
+/* Fin Sección de información */
+
+/*----------------*/
+
+/* Inicio de sección proyectos seleccionados */
+
+
+.cont_selected_projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected_projects_grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 30% 70%;
+}
+
+.selected_projects_grid .gridImage{
+    height:100%;
+	width:100%;
+	object-fit:cover;
+	object-position:center;
+    border: white solid 4px;
+    box-shadow: 0px 2px 2px rgb(63, 63, 63);
+}
+
+.Secondrow{
+    grid-row: 2/3;
+    margin: 7% 7%;
+}
+
+
+/* Fin de sección proyectos seleccionados*/
+
+/*----------------*/
+
+/* Inicio  footer */
 
