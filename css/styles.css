@@ -196,16 +196,18 @@ nav .barra_nav li:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2% 0 8% ;
 }
 
 .selected_projects_grid{
     width: 80%;
     display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 30% 70%;
+    justify-content: center;
 }
 
-.selected_projects_grid .gridImage{
+.gridImage{
     height:100%;
 	width:100%;
 	object-fit:cover;
@@ -226,3 +228,99 @@ nav .barra_nav li:first-child {
 
 /* Inicio  footer */
 
+.pre_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont_fromourblog{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.pre_footer h2{
+    font-size: 24px;
+    color: #828282;
+}
+
+footer p{
+    color: #8e8e8e;
+}
+
+.pre_footer .fecha{
+    color: #b3b3b3;
+}
+
+.centroabajo, .centroarriba{
+    margin:6% 10% 10% 0%;
+}
+
+.centroarriba{
+    grid-column: 1;
+    grid-row: 2/3;
+}
+
+.centroabajo{
+    grid-column: 1;
+    grid-row: 3/4;
+}
+
+.derCentroArriba{
+    grid-row: 2/3;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.derCentroAbajo{
+    grid-row: 3/4;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.abajo{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.pre_footer a{
+    color: #00aced;
+}
+
+.cont_ourtwitter{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 25% 25% 25% 10%;
+}
+
+.cont_ourtwitter div{
+    margin: 2.8% 0;
+}
+.cont_ourtwitter:last-child{
+    margin: 0% 0 0 0;
+}
+
+.footerbottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infooter{
+    width: 90%;
+    margin-top: 2%;
+    border: #8e8e8e;
+    border-top: #8e8e8e 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 1% 0 ;
+}
