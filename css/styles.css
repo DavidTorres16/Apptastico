@@ -328,3 +328,46 @@ footer p{
     flex-flow: row nowrap;
     padding: 1% 0 ;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .div_banner_text h1 {
+        font-size: 54px;
+    }
+
+    .bannerlinks {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .btnbanner{
+    padding: 2% 8%;
+    }
+
+    .pre_footer{
+        display: grid;
+        grid-column: 100%;
+        grid-row: 50% 50%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .cont_fromourblog{
+        width: 80%;
+    }
+
+    .cont_ourtwitter{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .div_banner_img {
+        width: 100%;
+        max-height:400px;
+    }
+    
+    .div_banner_text {
+        width: 100%;
+    }
+}
